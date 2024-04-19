@@ -7,6 +7,7 @@ import example.domain.Owner;
 import io.micronaut.data.annotation.Repository;
 import io.micronaut.data.repository.CrudRepository;
 
+// navigate to autowired candidates: can't distinguish between variants (show class?)
 @Repository
 public interface OwnerRepository extends CrudRepository<Owner, Long> {
 
